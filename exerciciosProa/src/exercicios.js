@@ -66,9 +66,11 @@ function maiorDeDois (valor1, valor2) {
             if(valor1 > valor2){
                 maior = valor1;
                 return `O valor ${maior} é maior que o ${valor2}`;
-            }else{
+            }else if (valor1 < valor2){
                 maior = valor2;
                 return `O valor ${maior} é maior que o ${valor1}`;
+            }else if (valor1 == valor2){
+                return `Os valores informados, ${valor1} e ${valor2} são iguais`;
             }
         
 }
@@ -101,6 +103,24 @@ const n2 = parseFloat(prompt("Me diga a sua segunda nota"));
 const n3 = parseFloat(prompt("Me diga a sua terceira nota"));
 
 console.log(calcularMedia(n1, n2 ,n3));
+
+console.log("");
+
+// Área do retângulo
+
+const area = (altura, base) => {
+    let areaRetangulo = altura * base;
+    return `A área do retangulo, conforme as medidas declaradas, é: ${areaRetangulo}`;
+}
+
+const altura = parseFloat(prompt("Me informe a altura do Retangulo:"));
+const base = parseFloat(prompt("Me informe a medida da base do Retangulo:"));
+console.log(area(altura, base));
+
+console.log("");
+
+
+
 
 
 
