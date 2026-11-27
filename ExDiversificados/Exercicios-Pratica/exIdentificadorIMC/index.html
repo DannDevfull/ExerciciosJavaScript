@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador IMC</title>
+    <link rel="stylesheet" href="Estilo.CSS">
+</head>
+<body>
+    <header>
+        <h1> Descubra seu IMC - Índice de Massa Corporal</h1>
+        <h2> Avalie sua saúde. Nunca é demais!</h2>
+    </header>
+    <main>
+        <section>
+            <div class="camposImc">
+                <label for="txtn1">Me diga seu peso:</label> 
+                <input type="number" name="txtn1" id="txtn1">
+    
+                <label for="txt2">Me diga sua altura:</label>
+                <input type="number" name="txt1" id="txt2">
+                 
+                <input id="bt" type="button" value="verificar" onclick="Clicar()">
+            </div>
+    
+            <div id="res">
+            </div>
+                
+        </section>
+    </main>
+
+    <footer>
+        &copy; MedicinaAvançada
+    </footer>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>

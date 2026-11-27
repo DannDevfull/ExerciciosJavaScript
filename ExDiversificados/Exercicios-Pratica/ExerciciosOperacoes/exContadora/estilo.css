@@ -1,0 +1,48 @@
+/*essa seria uma página ja dedicada a CSS; por isso não crei um Style*/
+body{
+    background-color: rgb(24, 61, 109);
+    font: normal 13pt arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;/*alinahmento de texto*/
+}
+
+section{
+    background-color: #fff;
+    border-radius: 15px; /*Para arredondar as bordas*/
+    padding: 20px; /*para aumentar o espaço dentro delas*/
+    width: 500px; /*Defininfo a largura*/
+    height: auto;
+    margin: auto; /*Centralizador*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /*Definindo sombras naperte inferior do quadrado. 
+    Os numeros são as dimensões dela:lateral, compr. e espalhamento*/
+
+}
+input#botton{
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: poppins;
+}
+
+main section .campoEntradas{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 0.2rem;
+
+}
+div#res{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: larger;
+    font-family: poppins;
+}
+
+footer{
+    color: white;
+    text-align: center; /*alinahmento de texto*/
+    font-style: italic;
+}

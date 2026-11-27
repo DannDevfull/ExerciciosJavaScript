@@ -1,0 +1,48 @@
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #3f3f3f;
+    border-radius: 200px;
+    
+}
+body{
+    background-color: #f2f2f3;
+}
+
+p{
+    font: normal 15pt arial;
+}
+section{
+        color: white;
+        font: normal 15pt arial;
+        background-color: #070707;
+        border-radius: 105px;
+        width: 750px;
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+}
+
+main section .camposImc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+input{
+    border-radius: 100px;
+    background-color: #bfe5fcf6;
+    padding: 5px;
+    text-align: center;
+    font: normal 11pt arial;
+}
+input#bt{
+    width: 100px;
+    font: normal 14pt arial;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-style: oblique;
+}

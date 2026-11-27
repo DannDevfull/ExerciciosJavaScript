@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: ghostwhite;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header, h1{
+    text-align: center;
+    text-decoration:underline;
+    color: black; 
+}
+
+section{
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color:rgba(220, 20, 60, 0.788);
+    padding: 20px;
+
+    & div{
+        color: black;
+
+        & input{
+            color: black;
+            border-radius: 6px;
+            height: 20px;
+            padding-left: 4px;
+
+        }
+
+        & select{
+            width: 150px;
+            height: 150px;
+            
+            & option{
+                color: #000;
+                padding-left: 8px;
+            }
+           
+        }
+
+        & .btn2{
+            color: black;
+            border-radius: 4px;
+            font-weight: 300;
+            padding: 6px;
+        }
+    }
+
+    & #res{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 38px;
+    }
+}
+
+footer, p{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}

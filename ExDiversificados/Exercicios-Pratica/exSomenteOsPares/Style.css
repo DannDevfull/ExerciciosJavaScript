@@ -1,0 +1,32 @@
+body{
+    color: rgb(229, 232, 235);
+}
+
+section{
+    background-color: rgb(115, 108, 219);
+    width: 700px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+input{
+    border-radius: 50px;
+    width: 130px;
+    padding: 5px;
+}
+h1{
+    color: rgb(243, 242, 245);
+}
+h2{
+    color: rgb(236, 232, 232);
+}
+div{
+    margin-top: 50px;
+    font: normal 15pt arial
+}
+footer{
+    text-align: center;
+    font: 13pt arial;
+    font-style: italic;
+}

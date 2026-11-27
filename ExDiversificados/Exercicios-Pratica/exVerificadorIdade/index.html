@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="estilo.css">
+        <title>Verificador de idade</title>
+    </head>
+    <body>
+    <!-- essa é minha parte estrutural. &copy funcionaria como algun tipo de copyright, marca d'agua etc.-->
+        <header>
+            <h1>Verificador de idade</h1>
+        </header>
+
+        <section>
+            <div>
+                <label for="txtn2">Ano de nascimento:</label> 
+                <input type="number" name="txtn1" id="txtn2" min="0" max="100">
+                
+                <div>
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <!--checked é para ja deixar marcado o masculino, afim de obrigar o usuario a escolher um ou outro-->
+                    
+                    <!-- Os dois nomes dentro dos input devem ser iguais, pois se nao, no site eu não consigo selecionar um ou outro
+                    , o meu clique deve ser em um ou em outro. Veja ate que no script, pego esse elemento pelo comando name, que esta mo plural
+                    podendo selecionar os dois-->
+                    <input type="radio" name="radsex" id="femin">
+                    <label for="femin">Feminino</label>
+                <!--testando-o dentro e fora dos paragrafos <input type="button" value="Verificador"-->
+                </div>
+            
+                <input type="button" value="Verificador" onclick="verificar()">
+            </div>
+
+            <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+            </div>
+
+        </section>
+
+        <footer>
+            <p>&copy; CursoEmVídeo</p>
+        </footer>
+
+        <script src="script.js"></script> 
+    </body>
+</html>

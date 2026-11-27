@@ -1,0 +1,34 @@
+/*essa seria uma página ja dedicada a CSS; por isso não crei um Style*/
+body{
+    background-color: rgb(24, 61, 109);
+    font: normal 13pt arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;/*alinahmento de texto*/
+}
+
+section{
+    background-color: white;
+    border-radius: 10px; /*Para arredondar as bordas*/
+    padding: 15px; /*para aumentar o espaço dentro delas*/
+    width: 500px; /*Defininfo a largura*/
+    margin: auto; /*Centralizador*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623); /*Definindo sombras naperte inferior do quadrado. 
+    Os numeros são as dimensões dela:lateral, compr. e espalhamento*/
+
+}
+div#res{
+
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+footer{
+    color: white;
+    text-align: center; /*alinahmento de texto*/
+    font-style: italic;
+}
