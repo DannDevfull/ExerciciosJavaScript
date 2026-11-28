@@ -49,7 +49,39 @@ console.log("Aguardando o serviço...");
 
 
 
-// --------------------------------------------------------
+
+
+
+// -------------------------------------------------------------
+
+
 
 // Finally()
+// No caso, o finally representa a espera; o aguardo. E pode executar as outraos métodos acima quando acabar.
+{
+    let carregando = true;
+    console.log("Carregando", carregando);
+    
+    new Promise((resolve, reject) =>{
+        setTimeout( () => {
+            resolve("Manutenção de bicicleta")
+        }, 500);
+    })
 
+    .then(descricao => console.log(descricao))
+
+    .catch((erro) => {
+        console.log(erro.message);
+    })
+
+    .finally(() => {
+        carregando = false;
+        console.log("carregando?", carregando);
+    })
+    
+
+
+
+
+    
+}
